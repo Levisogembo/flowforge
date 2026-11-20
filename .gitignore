@@ -1,0 +1,20 @@
+
+secrets
+
+# Environment variables
+.env
+.env.*
+
+# Allow the example configuration
+!.env.example
+
+# Go build artifacts
+/tmp/
+/main
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
